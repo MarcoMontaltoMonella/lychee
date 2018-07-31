@@ -1,0 +1,29 @@
+{
+  "name": "lychee",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcoMontaltoMonella/lychee.git"
+  },
+  "author": "mmmarco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcoMontaltoMonella/lychee/issues"
+  },
+  "homepage": "https://github.com/MarcoMontaltoMonella/lychee#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "expect.js": "^0.3.1",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
